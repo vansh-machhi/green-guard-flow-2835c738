@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Shield, Leaf, Eye, EyeOff, Mail, Lock, User, ArrowRight } from 'lucide-react';
+import { Eye, EyeOff, Mail, Lock, User, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -64,8 +64,11 @@ const AuthPage = () => {
         <div className="text-center mb-8 animate-fadeInUp">
           <div className="flex items-center justify-center mb-4">
             <div className="relative">
-              <Shield className="w-12 h-12 text-green-guard-500 animate-pulse-glow" />
-              <Leaf className="w-6 h-6 text-green-guard-400 absolute -top-1 -right-1 animate-glow" />
+              <img 
+                src="/lovable-uploads/f0f62c99-6980-490f-8b33-fd0c6ae8c84b.png" 
+                alt="GREEN GUARD Logo" 
+                className="w-16 h-16 animate-pulse-glow rounded-lg"
+              />
             </div>
           </div>
           <h1 className="text-3xl font-bold text-white mb-2 tracking-wide">
